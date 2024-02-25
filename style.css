@@ -1,0 +1,22 @@
+:root {
+    --open-sans-family: "Open Sans", sans-serif;
+    --teko-family: "Teko", sans-serif;
+    --white-color: #FFFFFF;
+    --dg-color: #141414;
+    --brown-color: #99823D;
+    --black-color: #0000;
+    --lg-color: #EBEBEB;
+    --red-color: #E63946;
+    --lw-color: rgba(255 255 255 0.4);
+    --grey-color: #3D3D3D;
+    --golden-color: #A68F4B;
+    --mw-color: rgba(255 255 255 0.75);
+    --light-color: #E5E5E5;
+}
+
+.site-width{
+    width: 1440px;
+
+    margin: 0 auto;
+    padding: 0;
+}
