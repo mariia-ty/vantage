@@ -1,22 +1,42 @@
 :root {
-    --open-sans-family: "Open Sans", sans-serif;
-    --teko-family: "Teko", sans-serif;
-    --white-color: #FFFFFF;
-    --dg-color: #141414;
-    --brown-color: #99823D;
-    --black-color: #0000;
-    --lg-color: #EBEBEB;
-    --red-color: #E63946;
-    --lw-color: rgba(255 255 255 0.4);
-    --grey-color: #3D3D3D;
-    --golden-color: #A68F4B;
-    --mw-color: rgba(255 255 255 0.75);
-    --light-color: #E5E5E5;
+  --open-sans-family: "Open Sans", sans-serif;
+  --teko-family: "Teko", sans-serif;
+
+  --white-color: #ffffff;
+  --dg-color: #141414;
+  --brown-color: #99823d;
+  --black-color: #0000;
+  --lg-color: #ebebeb;
+  --red-color: #e63946;
+  --lw-color: rgba(255 255 255 0.4);
+  --grey-color: #3d3d3d;
+  --golden-color: #a68f4b;
+  --mw-color: rgba(255 255 255 0.75);
+  --light-color: #e5e5e5;
 }
 
-.site-width{
-    width: 1440px;
+.site-width {
+  width: 1440px;
 
-    margin: 0 auto;
-    padding: 0;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.heart {
+  fill: #e63946;
+}
+
+.top-img {
+  width: 978px;
+  height: 591px;
+  background-image: url(./images/sec1.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.brown-rect {
+  width: 489px;
+  height: 329px;
+  background-color: var(--brown-color);
+  z-index: 2;
 }
